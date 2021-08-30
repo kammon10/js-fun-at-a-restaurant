@@ -16,8 +16,7 @@ function listItems(orders) {
   for (var i = 0; i < orders.length; i++) {
      food.push(orders[i].item)
     }
-     orders.toString()
-     return orders
+    return food.join(', ');
 }
 
 // function searchOrder() {
